@@ -1,0 +1,6 @@
+{
+  "name": "Chowking",
+  "description": "A modern, premium, high-converting digital ordering website for Chowking, featuring cinematic food presentations, custom ordering flows, franchise portal, and modern Asian styling.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300..900;1,300..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Custom "Sleek Interface" Light-Theme over existing slate utilities */
+  --color-slate-950: #FDFCFB;     /* Warm off-white page background */
+  --color-slate-900: #FFFFFF;     /* Card surface backgrounds */
+  --color-slate-850: #F8F8FB;     /* Nested card sections or hover highlights */
+  --color-slate-800: #EAEAEE;     /* Thin gray border borders */
+  --color-slate-700: #DCDCE2;     /* Faint border grids */
+  --color-slate-600: #9E9EAA;     /* Outer placeholder or captions */
+  --color-slate-500: #6B6D7A;     /* Muted labels or supporting info */
+  --color-slate-400: #4B4D58;     /* Secondary description text */
+  --color-slate-300: #333540;     /* Body readables and titles */
+  --color-slate-200: #1D1E26;     /* Main subheadings */
+  --color-slate-100: #111116;     /* Pure dark text for display headings */
+
+  /* Chowking Brand Signature Colors */
+  --color-red-650: #D9262E;       /* Chowking Brand Vibrant Crimson Red */
+  --color-red-700: #C21D24;       /* Deep red hover highlights */
+  --color-red-750: #8B181C;       /* Sleek rich dark red burger */
+  --color-yellow-300: #FFB81C;    /* Imperial Yellow gold */
+  --color-yellow-400: #E29E10;    /* Darker yellow shade */
+}
+
+/* Scrollbar tuning with soft brand colors */
+.scrollbar-thin::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: transparent;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background-color: rgba(217, 38, 46, 0.2);
+  border-radius: 8px;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(217, 38, 46, 0.4);
+}
+
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
